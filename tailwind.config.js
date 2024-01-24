@@ -7,6 +7,9 @@ export default {
     "./resources/**/*.blade.php",
     "./resources/**/*.js",
     "./resources/**/*.vue",
+    "./app/View/Components/**/**/*.php",
+    "./app/Livewire/**/**/*.php",
+    "./vendor/robsontenorio/mary/src/View/Components/**/*.php"
   ],
   theme: {
     extend: {},
@@ -14,6 +17,7 @@ export default {
   plugins: [
     forms,
     typo,
+    require("daisyui")
   ],
 }
 
